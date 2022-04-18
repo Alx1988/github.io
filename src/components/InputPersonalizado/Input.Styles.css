@@ -1,0 +1,38 @@
+
+form{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:0 0 5px rgb(0, 0, 0, 0.5);
+    padding: 30px 4%;
+}
+
+form div.single_input{
+    position: relative;
+    margin: 30px 0;
+}
+form div.single_input label{
+    position: absolute;
+    bottom: 5;
+    left:0;
+    color: rgb(100, 100, 100)
+}
+
+form div.single_input .input{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(200, 200, 200);
+    outline: none;
+    cursor: text;
+}
+
+form div.single_input .input:focus{
+    border-bottom: 2px solid #706c6c;
+}
+form div.single_input .input:focus ~ label {
+    transform: translateY(-22px);
+    font-size: 12px;
+}

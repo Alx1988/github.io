@@ -1,0 +1,635 @@
+body{
+    height: 670px;
+    width: 100%;
+  
+    background-image: url("../../assets/img_home_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.image_logo_home{
+    /* position: absolute; */
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+}
+.wrapper{
+    width: 90%;
+
+	position: absolute;
+	top: 65%;
+	right: 0px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background: linear-gradient(to left top, rgba(48, 117, 229, .82), rgba(1, 55, 142, .98) 50%);
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	padding: 15px;
+	box-sizing: border-box;
+	transition: all .3s;
+}
+.wrapper .input_data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.wrapper .input_data .input{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: none;
+    border-bottom:  2px solid silver;
+    font-size: 17px;
+    margin-top: 8px;
+    outline: none;
+    background: transparent;
+    color: #fff;
+   padding-top: 6px;
+  
+}
+.wrapper .input_data .input:focus{
+    border-bottom:  2px solid silver;
+}
+
+.wrapper .input_data .input:focus ~ label {
+    transform: translateY(-10px);
+}
+.wrapper .input_data .input:focus ~ .password {
+    transform: translateY(-8px);
+}
+.wrapper .input_data .name{
+    position: absolute;
+    bottom: 18px;
+    margin-left: -294px;
+    color: #FFF;
+    width: 300px;
+    font-size: 17px;
+}
+.wrapper .input_data .password{
+    position: absolute;
+    bottom: 18px;
+    margin-left: -294px;
+    color: #FFF;
+    width: 300px;
+    font-size: 17px;
+}
+.wrapper .input_data input[type="password"]{
+    color: #0E2D9E;
+}
+.wrapper .input_data .input:focus #password {
+    border: none;
+}
+.icon{
+    position: absolute;
+    width: 18px;
+    margin-left: -28px;
+    margin-top: 10px;
+    color: #FFF;
+}
+.button_acessar{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+.text{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(200, 200, 200);
+}
+.container_bolinhas{
+    display: flex;
+}
+.bolinha1{
+    margin: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    margin-top: -25px;
+    margin-left: 72px;
+    position: absolute;
+
+}
+.bolinha01{
+    margin: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    background-color: #FFF;
+    border-radius: 1rem;
+    margin-top: -25px;
+    position: absolute;
+
+}
+.bolinha2{
+    margin: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    margin-top: -25px;
+    margin-left: 72px;
+    position: absolute;
+}
+.bolinha02{
+    margin: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: -25px;
+    margin-left: 25px;
+    position: absolute;
+
+}
+.bolinha3{
+    margin: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    margin-top: -25px;
+    margin-left: 72px;
+    position: absolute;
+}
+.bolinha03{
+    margin: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: -25px;
+    margin-left: 48px;
+    position: absolute;
+}
+.bolinha4{
+    margin: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    margin-top: -25px;
+    margin-left: 72px;
+    position: absolute;
+}
+.bolinha04{
+    margin: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: -25px;
+    margin-left: 72px;
+    position: absolute;
+}
+.footer{
+    width: 100%;
+    margin-top:500px;
+}
+.container_img_footer{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px;
+}
+.button_img_fotter{
+    background: transparent;
+    border: none;
+}
+.img_footer{
+    width: 30px;
+}
+
+@media (min-width:375px){
+    body{
+        height: 670px;
+        width: 100%;
+        background-image: url("../../assets/img_home_bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .image_logo_home{
+        /* position: absolute; */
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 200px;
+    }
+    .wrapper{
+        width: 90%;
+    
+        position: absolute;
+        top: 65%;
+        right: 0px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background: linear-gradient(to left top, rgba(48, 117, 229, .82), rgba(1, 55, 142, .98) 50%);
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        padding: 15px;
+        box-sizing: border-box;
+        transition: all .3s;
+    }
+    .wrapper .input_data{
+        height: 40px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .wrapper .input_data .input{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        border: none;
+        border-bottom:  2px solid silver;
+        font-size: 17px;
+        margin-top: 8px;
+        outline: none;
+        background: transparent;
+        color: #fff;
+       padding-top: 6px;
+      
+    }
+    .wrapper .input_data .input:focus{
+        border-bottom:  2px solid silver;
+    }
+    
+    .wrapper .input_data .input:focus ~ label {
+        transform: translateY(-10px);
+    }
+    .wrapper .input_data .input:focus ~ .password {
+        transform: translateY(-8px);
+    }
+    .wrapper .input_data .name{
+        position: absolute;
+        bottom: 18px;
+        margin-left: -306px;
+        color: #FFF;
+        width: 300px;
+        font-size: 17px;
+    }
+    .wrapper .input_data .password{
+        position: absolute;
+        bottom: 18px;
+        margin-left: -306px;
+        color: #FFF;
+        width: 300px;
+        font-size: 17px;
+    }
+    .wrapper .input_data input[type="password"]{
+        color: #0E2D9E;
+    }
+    .wrapper .input_data .input:focus #password {
+        border: none;
+    }
+    .icon{
+        position: absolute;
+        width: 18px;
+        margin-left: -28px;
+        margin-top: 10px;
+        color: #FFF;
+    }
+    .button_acessar{
+        width: 100%;
+        height: 40px;
+        border-radius: 8px;
+        border: 1px solid #FFF;
+        cursor: pointer;
+    }
+    .text{
+        font-size: 22px;
+        font-weight: 600;
+        color: rgba(200, 200, 200);
+    }
+    .container_bolinhas{
+        display: flex;
+    }
+    .bolinha1{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    
+    }
+    .bolinha01{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        background-color: #FFF;
+        border-radius: 1rem;
+        margin-top: -25px;
+        position: absolute;
+    
+    }
+    .bolinha2{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    }
+    .bolinha02{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 25px;
+        position: absolute;
+    
+    }
+    .bolinha3{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    }
+    .bolinha03{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 48px;
+        position: absolute;
+    }
+    .bolinha4{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    }
+    .bolinha04{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    }
+    .footer{
+        width: 100%;
+        margin-top:500px;
+    }
+    .container_img_footer{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: 30px;
+    }
+    .button_img_fotter{
+        background: transparent;
+        border: none;
+    }
+    .img_footer{
+        width: 30px;
+    }
+    
+}
+
+@media (min-width:411px){
+    body{
+        height: 844px;
+        width: 100%;
+        background-image: url("../../assets/img_home_bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .image_logo_home{
+        /* position: absolute; */
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 200px;
+    }
+    .wrapper{
+        width: 90%;
+    
+        position: absolute;
+        top: 65%;
+        right: 0px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background: linear-gradient(to left top, rgba(48, 117, 229, .82), rgba(1, 55, 142, .98) 50%);
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        padding: 15px;
+        box-sizing: border-box;
+        transition: all .3s;
+    }
+    .wrapper .input_data{
+        height: 40px;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .wrapper .input_data .input{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        border: none;
+        border-bottom:  2px solid silver;
+        font-size: 17px;
+        margin-top: 8px;
+        outline: none;
+        background: transparent;
+        color: #fff;
+       padding-top: 6px;
+      
+    }
+    .wrapper .input_data .input:focus{
+        border-bottom:  2px solid silver;
+    }
+    
+    .wrapper .input_data .input:focus ~ label {
+        transform: translateY(-10px);
+    }
+    .wrapper .input_data .input:focus ~ .password {
+        transform: translateY(-8px);
+    }
+    .wrapper .input_data .name{
+        position: absolute;
+        bottom: 18px;
+        margin-left: -340px;
+        color: #FFF;
+        width: 300px;
+        font-size: 17px;
+    }
+    .wrapper .input_data .password{
+        position: absolute;
+        bottom: 18px;
+        margin-left: -340px;
+        color: #FFF;
+        width: 300px;
+        font-size: 17px;
+    }
+    .wrapper .input_data input[type="password"]{
+        color: #0E2D9E;
+    }
+    .wrapper .input_data input[type="password"]:focus {
+        border: none;
+    }
+    .icon{
+        position: absolute;
+        width: 18px;
+        margin-left: -28px;
+        margin-top: 10px;
+        color: #FFF;
+    }
+    .button_acessar{
+        width: 100%;
+        height: 40px;
+        border-radius: 8px;
+        border: 1px solid #FFF;
+        cursor: pointer;
+    }
+    .text{
+        font-size: 22px;
+        font-weight: 600;
+        color: rgba(200, 200, 200);
+    }
+    .container_bolinhas{
+        display: flex;
+    }
+    .bolinha1{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    
+    }
+    .bolinha01{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        background-color: #FFF;
+        border-radius: 1rem;
+        margin-top: -25px;
+        position: absolute;
+    
+    }
+    .bolinha2{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    }
+    .bolinha02{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 25px;
+        position: absolute;
+    
+    }
+    .bolinha3{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    }
+    .bolinha03{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 48px;
+        position: absolute;
+    }
+    .bolinha4{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    }
+    .bolinha04{
+        margin: 0.25rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        background-color: #fff;
+        border-radius: 1rem;
+        margin-top: -25px;
+        margin-left: 72px;
+        position: absolute;
+    }
+    .footer{
+        width: 100%;
+        margin-top:680px;
+    }
+    .container_img_footer{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: 30px;
+    }
+    .button_img_fotter{
+        background: transparent;
+        border: none;
+    }
+    .img_footer{
+        width: 30px;
+    }
+}

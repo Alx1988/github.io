@@ -1,0 +1,424 @@
+.container_sucess{
+    background-color: white;
+    height: 760px;
+}
+.header_sucess{
+    box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.2);
+    padding: 4px;
+}
+.logo_itau_sucess{
+    width: 150px;
+   margin-left: 110px;
+   margin-bottom: 8px;
+}
+.container_confimation_sucess{
+}
+.logo_confirmation_sucess{
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.container_confirmation_sucess_img{
+    margin-top: 110px;
+    margin-left: 135px;
+}
+.container_confimation_sucess{
+    margin-left: 44px;
+    margin-top: -10px;
+}
+.bolinha1{
+    margin: 0.25rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #EE7421;
+    background-color: #EE7421;
+    border-radius: 1rem;
+    margin-top: 25px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+
+}
+.line_bolinha1{
+    border: 1px solid #EE7421;
+    width: 80px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 37px;
+}
+.text_indent{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -22px;
+    color: #EE7421;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bolinha2{
+    margin: 0.25rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #EE7421;
+    background-color: #EE7421;
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #FFF;
+
+}
+.line_bolinha2{
+    border: 1px solid #EE7421;
+    width: 80px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 148px;
+}
+.text_confirm{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 90px;
+    color: #EE7421;
+    font-weight: bold;
+    font-size: 14px;
+}
+.bolinha3{
+    margin: 0.25rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #EE7421;
+    background-color: #EE7421;
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #FFF;
+}
+.text_conclu{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 210px;
+    color: #EE7421;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container_confirmation_sucess_img .title{
+    margin-top: 0px;
+    margin-left: -30px;
+    font-weight: 500px;
+    color: #EE7421;
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.sub_title{
+    margin-top: 10px;
+    margin-left:20px;
+    font-weight: 500;
+    color: #333333;
+    font-size: 15px;
+}
+.sub_title_1{
+    margin-top: 10px;
+    margin-left:20px;
+    font-weight: 700;
+    color: #003366;
+    font-size: 15px;
+}
+@media (min-width:375px){
+    .container_sucess{
+        background-color: white;
+        height: 760px
+    }
+    .header_sucess{
+        box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.2);
+        padding: 4px;
+    }
+    .logo_itau_sucess{
+        width: 150px;
+       margin-left: 120px;
+       margin-bottom: 8px;
+    }
+    .container_confimation_sucess{
+    }
+    .logo_confirmation_sucess{
+        width: 100%;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+    .container_confirmation_sucess_img{
+        margin-top: 110px;
+        margin-left: 150px;
+    }
+    .container_confimation_sucess{
+        margin-left: 55px;
+        margin-top: -10px;
+    }
+    .bolinha1{
+        margin: 0.25rem;
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #EE7421;
+        background-color: #EE7421;
+        border-radius: 1rem;
+        margin-top: 25px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: bold;
+    
+    }
+    .line_bolinha1{
+        border: 1px solid #EE7421;
+        width: 80px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 37px;
+    }
+    .text_indent{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: -22px;
+        color: #EE7421;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .bolinha2{
+        margin: 0.25rem;
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #EE7421;
+        background-color: #EE7421;
+        margin-top: 25px;
+        position: absolute;
+        margin-left: 115px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #FFF;
+    
+    }
+    .line_bolinha2{
+        border: 1px solid #EE7421;
+        width: 80px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 148px;
+    }
+    .text_confirm{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 90px;
+        color: #EE7421;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .bolinha3{
+        margin: 0.25rem;
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #EE7421;
+        background-color: #EE7421;
+        margin-top: 25px;
+        position: absolute;
+        margin-left: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #FFF;
+    }
+    .text_conclu{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 210px;
+        color: #EE7421;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .container_confirmation_sucess_img .title{
+        margin-top: 0px;
+        margin-left: -30px;
+        font-weight: 500px;
+        color: #EE7421;
+        font-size: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .sub_title{
+        margin-top: 10px;
+        margin-left:20px;
+        font-weight: 500;
+        color: #333333;
+        font-size: 15px;
+    }
+    .sub_title_1{
+        margin-top: 10px;
+        margin-left:20px;
+        font-weight: 700;
+        color: #003366;
+        font-size: 15px;
+    }
+    
+}
+
+@media (min-width:411px){
+    .container_sucess{
+        background-color: white;
+        height: 960px;
+    }
+    .header_sucess{
+        box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.2);
+        padding: 4px;
+    }
+    .logo_itau_sucess{
+        width: 150px;
+       margin-left: 130px;
+       margin-bottom: 8px;
+    }
+    .container_confimation_sucess{
+    }
+    .logo_confirmation_sucess{
+        width: 100%;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+    .container_confirmation_sucess_img{
+        margin-top: 110px;
+        margin-left: 150px;
+    }
+    .container_confimation_sucess{
+        margin-left: 60px;
+        margin-top: -10px;
+    }
+    .bolinha1{
+        margin: 0.25rem;
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #EE7421;
+        background-color: #EE7421;
+        border-radius: 1rem;
+        margin-top: 25px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: bold;
+    
+    }
+    .line_bolinha1{
+        border: 1px solid #EE7421;
+        width: 80px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 37px;
+    }
+    .text_indent{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: -22px;
+        color: #EE7421;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .bolinha2{
+        margin: 0.25rem;
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #EE7421;
+        background-color: #EE7421;
+        margin-top: 25px;
+        position: absolute;
+        margin-left: 115px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #FFF;
+    
+    }
+    .line_bolinha2{
+        border: 1px solid #EE7421;
+        width: 80px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 148px;
+    }
+    .text_confirm{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 90px;
+        color: #EE7421;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .bolinha3{
+        margin: 0.25rem;
+        width: 2rem;
+        height: 2rem;
+        border: 2px solid #EE7421;
+        background-color: #EE7421;
+        margin-top: 25px;
+        position: absolute;
+        margin-left: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #FFF;
+    }
+    .text_conclu{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 210px;
+        color: #EE7421;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .container_confirmation_sucess_img .title{
+        margin-top: 0px;
+        margin-left: -30px;
+        font-weight: 500px;
+        color: #EE7421;
+        font-size: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .sub_title{
+        margin-top: 10px;
+        margin-left:20px;
+        font-weight: 500;
+        color: #333333;
+        font-size: 15px;
+    }
+    .sub_title_1{
+        margin-top: 10px;
+        margin-left:20px;
+        font-weight: 700;
+        color: #003366;
+        font-size: 15px;
+    }
+    
+}
